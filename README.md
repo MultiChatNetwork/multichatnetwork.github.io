@@ -1,3 +1,5 @@
+[![Deploy portal web page](https://github.com/MultiChatNetwork/multichatnetwork.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/MultiChatNetwork/multichatnetwork.github.io/actions/workflows/deploy.yml)
+
 # Hey, we are MultiChat 👋
 
 Multichat is a messaging app with focus on security & user experience
