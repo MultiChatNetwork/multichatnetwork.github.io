@@ -8,11 +8,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  color: #212529;
+  color: #52575c;
+  text-decoration: underline !important;
 }
 
 .multichat-list .multichat-list-item .multichat-list-link:hover {
-  text-decoration: underline !important;
+  color: #212529;
 }
 
 /* mv-primary-headline */
@@ -160,7 +161,20 @@ img.multichat-thumbnail {
   max-width: 350px;
 }
 
+.multichat-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 576px) {
+  .multichat-nav, .multichat-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+
   .stars-section  > h1.stars-section-text {
     font-size: 3rem;
   }
@@ -179,6 +193,13 @@ img.multichat-thumbnail {
 }
 
 @media only screen and (min-width: 577px) and (max-width: 767px) {
+  .multichat-nav, .multichat-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+
   .stars-section > h1.stars-section-text {
     font-size: 3.5rem;
   }

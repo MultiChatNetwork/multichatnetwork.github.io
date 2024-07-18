@@ -10,9 +10,9 @@
       </section>
 
       <section class="col-md-8 p-0 m-0">
-        <header class="multichat-header px-5 pb-2 pt-4">
-          <nav class="multichat-nav d-flex align-items-center justify-content-between">
-            <ul class="multichat-list d-flex align-items-center justify-content-end gap-3">
+        <header class="multichat-header px-4 my-4 px-md-5 my-md-5">
+          <nav class="multichat-nav">
+            <ul class="multichat-list">
               <li class="multichat-list-item">
                 <h4 class="mv-primary-headline headline bg-primary">MultiChat.network</h4>
               </li>
@@ -28,8 +28,8 @@
           </nav>
         </header>
 
-        <section class="multichat-content px-5">
-            <ul class="multichat-content-list my-5">
+        <section class="multichat-content px-4 px-md-5">
+            <ul class="multichat-content-list mb-4 mb-md-5">
               <li class="multichat-content-item">
                 <span
                   role="button"
@@ -54,8 +54,8 @@
               </li>
             </ul>
 
-            <div class="multichat-footer">
-              <button class="btn btn-primary rounded-3 mb-3 mb-md-0" @click="handleRedirectMultividas()" >
+            <div class="multichat-footer mb-4 mb-md-0">
+              <button class="btn btn-primary rounded-3" @click="handleRedirectMultividas()" >
                 Login with Multividas
               </button>
 
