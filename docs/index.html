@@ -171,6 +171,8 @@
   </footer>
 
   <script type="text/javascript" defer>
+    document.getElementById("currentYear").textContent = new Date().getFullYear()
+
     const toggleMenu = () => {
       document.querySelectorAll('.header-nav').forEach(list => {
         list.classList.toggle('show');
